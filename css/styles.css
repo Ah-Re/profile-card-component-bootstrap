@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    
+    font-family: 'Kumbh Sans';
+    text-align: center;
+}
+
+
+h3 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.top-circle {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
+.bottom-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.profile-card {
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 6%;
+    height: 370px;
+    margin: 10% auto;
+    width: 350px;
+   
+
+}
+
+.card-picture {
+    background: url(/images/bg-pattern-card.svg);
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+.profile-picture {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+    
+}
+
+.profile-background-pic {
+    border-top-left-radius: 6%;
+    border-top-right-radius: 6%;
+    width: 350px;
+    /* margin: 10% auto; */
+    /* left: 38.3%; */
+    
+    
+   
+}
+
+.social-media-labels {
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+
+.city {
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 0.2rem;
+}
+
+.age {
+    color: hsl(0, 0%, 59%);
+    font-weight: normal;
+}
+
